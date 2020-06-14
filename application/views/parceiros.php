@@ -24,13 +24,12 @@
         <div class="row">
           <div class="how-treat">
             <div class="col-md-6">
-              <div class="detail">
-                <p>Welcome to Medical Guide tharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
-                  <br/><br/>
-                  veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-                  <br/><br/>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
-                </div>
+              <ul class="research-detail">
+                <li> <span>O Brasil possui mais de 2 milhões de caminhoneiros.</span></li>
+                <li> <span>Seja visto via aplicativo em tempo real.</span></li>
+                  <li> <span>Aumente o faturamento enquanto apoia a valorização da profissão que move o mundo.</span></li>
+                  <li> <span>Receba feedbacks sobre o atendimento e ganhe mais clientes com isso.</span></li>
+                    </ul>
               </div>
             </div>
             <div class="col-md-6">
@@ -45,16 +44,29 @@
               </div>
             </div>
           </div>
+          <div class="row">
+            <h1>Entre em contato para fazer parte</h1>
+            <div class="col-md-5">
+              <div class="form-group">
+                <label for="name">Nome</label>
+                <input type="text" class="form-control" name="name" id="name">
+              </div>
+            </div>
+            <div class="col-md-5">
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" name="email" id="email">
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="form-group">
+                <label for="">&nbsp;</label>
+                <button type="button" class="btn btn-primary form-control" name="button">Enviar</button>
+              </div>
+            </div>
+          </div>
         </div>
-        <ul class="research-detail">
-          <li><div class="icon"><i class="icon-checkmark"></i></div> <span>Seja encontrado por mais de 2 milhões de caminhoneiros.</span></li>
-            <li><div class="icon"><i class="icon-checkmark"></i></div> <span>Aumente o faturamento enquanto apoia a valorização da profissão que move o mundo.</span></li>
-            <li><div class="icon"><i class="icon-checkmark"></i></div> <span>looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in
-              classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC.</span></li>
-              <li><div class="icon"><i class="icon-checkmark"></i></div> <span>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC,
-                making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,</span></li>
-                <li><div class="icon"><i class="icon-checkmark"></i></div> <span>Discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "</span></li>
-              </ul>
+
             </div>
           </div>
         </div>

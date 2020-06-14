@@ -22,23 +22,16 @@
     <div class="container">
       <div class="research-sec">
         <div class="row">
-          <div class="col-md-12">
-            <div class="main-title">
-              <h2><span>Medical Guide</span> Research</h2>
-              <p>If you need a doctor for to consectetuer Lorem ipsum dolor, consectetur adipiscing elit. Ut volutpat eros  adipiscing nonummy.</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
           <div class="how-treat">
             <div class="col-md-6">
-              <div class="detail">
-                <p>Welcome to Medical Guide tharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
-                  <br/><br/>
-                  veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-                  <br/><br/>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
-                </div>
+              <ul class="research-detail">
+                <li> <span>Sistema S.O.S exclusivo para de dar mais segurança <br> nas viagens.</span></li>
+                  <li> <span>Praticidade na escolhas de pontos de parada.</span></li>
+                  <li> <span>GPS inteligênte com avisos de lugares perigosos.</span></li>
+                    <li> <span>Suporte a educação e saúde.</span></li>
+                      <li> <span>Descontos em diversos tipos de lazer.</span></li>
+                    </ul>
+
               </div>
             </div>
             <div class="col-md-6">
@@ -54,13 +47,7 @@
             </div>
           </div>
         </div>
-        <ul class="research-detail">
-          <li><div class="icon"><i class="icon-checkmark"></i></div> <span>Sistema S.O.S exclusivo para de dar mais segurança nas viagens.</span></li>
-            <li><div class="icon"><i class="icon-checkmark"></i></div> <span>Praticidade na escolhas de pontos de parada.</span></li>
-            <li><div class="icon"><i class="icon-checkmark"></i></div> <span>GPS inteligênte com avisos de lugares perigosos.</span></li>
-              <li><div class="icon"><i class="icon-checkmark"></i></div> <span>Suporte a educação e saúde.</span></li>
-                <li><div class="icon"><i class="icon-checkmark"></i></div> <span>Descontos em diversos tipos de lazer.</span></li>
-              </ul>
+
             </div>
             <div class="services-one dark-back">
               <div class="container">

@@ -11,6 +11,7 @@ class Usuarios_model extends CI_Model {
     $this->db->select('u.id, u.name, u.email, t.description');
     $this->db->from('users as u');
     $this->db->join('type_user as t', 'u.profile = t.profile');
+    $this->db->where('u.profile', 1);
     $query = $this->db->get();
     return $query->result();
   }
