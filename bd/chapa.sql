@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Jun 14, 2020 at 06:58 PM
+-- Generation Time: Jun 14, 2020 at 09:11 PM
 -- Server version: 10.4.10-MariaDB
 -- PHP Version: 7.3.12
 
@@ -43,7 +43,7 @@ CREATE TABLE IF NOT EXISTS `companies` (
   `latitude` varchar(200) NOT NULL,
   `longitude` varchar(200) NOT NULL,
   `summary` varchar(60) NOT NULL,
-  `register` date NOT NULL DEFAULT current_timestamp(),
+  `register` datetime NOT NULL DEFAULT current_timestamp(),
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
 
@@ -52,10 +52,10 @@ CREATE TABLE IF NOT EXISTS `companies` (
 --
 
 INSERT INTO `companies` (`id`, `name`, `email`, `type`, `cep`, `adress`, `number`, `neighborhood`, `city`, `state`, `latitude`, `longitude`, `summary`, `register`) VALUES
-(1, 'JL Tecno', 'jl@gmail.com', 1, '02471-210', 'Rua Rozo Lagoa', '300', 'Imirim', 'São Paulo', 'SP', '-22.8371724', '-45.2213445,14', '', '2020-06-14'),
-(2, 'Restaurante Dona Florinda', 'florinda@gmail.com', 2, '02471-200', 'Rua Quirinópolis', '200', 'Imirim', 'São Paulo', 'SP', '-22.8550182', '-45.2235694,14', 'Panquecas, sanduiches de presunto, xícaras de café, etc', '2020-06-14'),
-(3, 'Posto Seu Madruga', 'madruga@gmail.com', 1, '02471-200', 'Rua Quirinópolis', '200', 'Imirim', 'São Paulo', 'SP', '-22.8550182', '-45.2235694,14', 'Já fui de tudo nesse mundo', '2020-06-14'),
-(4, 'Hotel Seu Barriga', 'barriga@gmail.com', 3, '02471-250', 'Rua Carvalho e Albuquerque', '400', 'Vila Basileia', 'São Paulo', 'SP', '-22.8550182', '-45.2235694,14', 'A melhor hospedaria da região', '2020-06-14');
+(1, 'JL Tecno', 'jl@gmail.com', 1, '02471-210', 'Rua Rozo Lagoa', '300', 'Imirim', 'São Paulo', 'SP', '-22.8371724', '-45.2213445,14', '', '2020-06-14 00:00:00'),
+(2, 'Restaurante Dona Florinda', 'florinda@gmail.com', 2, '02471-200', 'Rua Quirinópolis', '200', 'Imirim', 'São Paulo', 'SP', '-22.8550182', '-45.2235694,14', 'Panquecas, sanduiches de presunto, xícaras de café, etc', '2020-06-14 00:00:00'),
+(3, 'Posto Seu Madruga', 'madruga@gmail.com', 1, '02471-200', 'Rua Quirinópolis', '200', 'Imirim', 'São Paulo', 'SP', '-22.8550182', '-45.2235694,14', 'Já fui de tudo nesse mundo', '2020-06-14 00:00:00'),
+(4, 'Hotel Seu Barriga', 'barriga@gmail.com', 3, '02471-250', 'Rua Carvalho e Albuquerque', '400', 'Vila Basileia', 'São Paulo', 'SP', '-22.8550182', '-45.2235694,14', 'A melhor hospedaria da região', '2020-06-14 00:00:00');
 
 -- --------------------------------------------------------
 
